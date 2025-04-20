@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const FizzBuzz = function (number) {
+        if (number % 3 === 0 && number % 5 === 0) {
+          return "FizzBuzz"
+        }
+        if (number % 5 === 0) {
+          return "Buzz"
+        }
+        if (number % 3 === 0) {
+          return "Fizz"
+        } else {
+          return number
+        }
+      }
+
+      console.log(FizzBuzz(11))
+    </script>
+  </body>
+</html>
